@@ -1,0 +1,26 @@
+name: pulse_studio
+description: PULSE Studio - Innovative Kinetic Video Editor for Android
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  video_player: ^2.9.2
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  path_provider: ^2.1.4
+  ffmpeg_kit_flutter_new: ^4.7.1
+  gal: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
